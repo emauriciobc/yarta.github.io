@@ -4,3 +4,7 @@ html, body{
     font-size: 12px;
     font-family: Helvetica;
 }
+img{
+    height: 50vh;
+    width: 50vw;
+}
