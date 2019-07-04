@@ -4,7 +4,8 @@ html, body{
     font-size: 12px;
     font-family: Helvetica;
 }
-img{
+article{
+    margin: auto;
     height: 50vh;
     width: 50vw;
 }
