@@ -1,11 +1,24 @@
+:root{
+    --normal: 12px;
+    --button-text: 20px;
+    --color-orange: #FF7F11;
+    --color-blue-dark: #052F5F;
+    --color-blue: #005377;
+    --color-blue-ligth: #4DA1A9;
+    --color-white: #FFFFFA;
+
+}
+
+
 html, body{
     margin: 0px;
     padding: 0px;
-    font-size: 12px;
+    font-size: var(--normal);
     font-family: Helvetica;
 }
-article{
-    margin: auto;
-    height: 50vh;
-    width: 50vw;
+
+button{
+    background: var(--color-orange);
+    color: var(--color-blue-dark);
+    font-size: var(--button-text);
 }
