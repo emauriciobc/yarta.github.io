@@ -1,5 +1,8 @@
 :root{
     --normal: 12px;
+    --normal-mobile: 17px;
+    --subtitles: 20px;
+    --titles: 30px;
     --button-text: 20px;
     --color-orange: #FF7F11;
     --color-blue-dark: #052F5F;
@@ -8,15 +11,12 @@
     --color-white: #FFFFFA;
 
 }
-
-
 html, body{
     margin: 0px;
     padding: 0px;
     font-size: var(--normal);
     font-family: Helvetica;
 }
-
 button{
     background: var(--color-orange);
     color: var(--color-blue-dark);
