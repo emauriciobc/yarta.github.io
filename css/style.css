@@ -1,3 +1,4 @@
+/**
 :root{
     --normal: 12px;
     --normal-mobile: 17px;
@@ -22,3 +23,9 @@ button{
     color: var(--color-blue-dark);
     font-size: var(--button-text);
 }
+.column{
+    display: grid;
+}**/
+
+
+
